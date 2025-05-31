@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-container{
+  border: 2px solid black;
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+
+}
