@@ -10,7 +10,8 @@ import Task7 from "./task7";
 import Task10 from "./task10";
 import Task11 from "./task11";
 import Task13 from "./task13";
-import Main from './Components/Main'
+// import Main from './Components/Main'
+import Main1 from './Hook/Main1'
 
 function App() {
   return (
@@ -41,7 +42,9 @@ function App() {
        
       <Task13 /> */}
 
-      <Main/>
+      {/* <Main/> */}
+
+      <Main1/>
     </>
   );
 }
