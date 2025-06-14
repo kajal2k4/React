@@ -8,9 +8,10 @@ import Us8 from "./Us8";
 import Us9 from "./Us9";
 import FoodReview from "./foodReview";
 import Ur1 from "./Ur1";
-import Task from './task'
+import Ue1 from "./Ue1";
+import Task from "./task";
 
-export default function Main() {
+export default function Main1() {
   return (
     <>
       {/* <Us2 /> */}
@@ -23,7 +24,17 @@ export default function Main() {
       {/* <Us9/> */}
       {/* <FoodReview/> */}
       {/* <Ur1/> */}
-      <Task/>
+      {/* <Task/> */}
+      const TC=createContext() const [datamode,setDatamode]=useState(false)
+      function Toggle(){setDatamode((prev) => !prev)}
+      const value={(datamode, Toggle)}
+      return (
+      <TC.Provider value={value}>
+        <Us2 />
+        <Us3 />
+        <Us4 />
+      </TC.Provider>
+      {/* <Ue1/> */}
     </>
   );
 }
